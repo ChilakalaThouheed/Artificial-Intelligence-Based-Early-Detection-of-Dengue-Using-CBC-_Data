@@ -1,0 +1,97 @@
+/* ------------------------------------------------- Large Screen. ---------------------------------------------------*/
+ @media (min-width: 1024px) and (max-width: 1600px) {
+
+
+
+}
+/* ------------------------------------------------- Laptop Screen ---------------------------------------------------*/
+ @media (min-width: 1170px) and (max-width: 1366px) {
+
+}
+/* ------------------------------------------------- Old Desktop :992 ---------------------------------------------------*/
+ @media (min-width: 992px) and (max-width: 1169px) {
+ 
+ .witr_left_menu nav{
+	 display:block !important;
+ }
+
+.doc_title h2 {
+    font-size: 53px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background: #f6fbff;
+    margin-top: 30px;
+}
+
+}
+/* ------------------------------------------------- Tablet Screen : 768 ---------------------------------------------------*/
+ @media (min-width: 768px) and (max-width: 991px) {
+
+ .witr_left_menu nav{
+	 display:block !important;
+ }
+.doc_title h2 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+pre{
+    white-space: break-spaces;
+}
+
+
+
+}
+/* ------------------------------------------------- Small Mobile : 320 ---------------------------------------------------*/
+ @media (max-width: 767px) {
+
+ .witr_left_menu {
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+ .witr_left_menu nav{
+	 display:block !important;
+ }
+.doc_title h2 {
+    font-size: 29px;
+} 
+.section_title h1 {
+    font-size: 22px;
+}
+.pra_content ol,
+.instalation_style ol{
+    padding: 10px;
+} 
+.instalation_style ul li {
+    margin-left: 10px;
+	    margin-bottom: 10px;
+}
+.instalation_style ol li {
+    margin-bottom: 30px;
+}
+.instalation_style h6{
+    margin-bottom: 20px;	
+}
+.process_title h4 {
+    font-size: 20px;
+}
+
+ol {
+    padding-inline-start: 0px;
+}
+.single_service {
+    padding-left: 10px;
+}
+pre{
+    white-space: break-spaces;
+}
+
+ 
+}
+/* ------------------------------------------------- Large Mobile :480px. ---------------------------------------------------*/
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+ 

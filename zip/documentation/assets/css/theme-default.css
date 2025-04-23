@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+body {	
+    color: #818282;
+	font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.6;
+}
+p {
+    font-weight: 400;
+	font-style: normal;
+	color:#1a264c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #151616;
+	font-family: 'Inter', sans-serif;
+    font-style: normal;
+	margin-bottom: 0px;
+	margin-top: 0px;
+    line-height: 1.2;	
+    font-weight: 700;
+    -webkit-transition: .5s;
+    transition: .5s;
+	font-size:30px;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+a{
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a{
+	 color: #f9af20;
+}
+a:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:focus,
+a:hover {
+    text-decoration: none;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+:focus {
+    outline: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+h3 small a {
+    color: #3d59e8;
+    font-size: 12px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 18px;
+	
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+  list-style:none; 
+}
+
+input:focus,
+button:focus
+{
+	border-color:transparent;
+	outline-color:transparent;
+}
+textarea:focus{
+	border-color:transparent;
+	outline-color:transparent;
+}
+
+label {
+    color: #f00;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a,i, cite, em, var, address, dfn,ol,li,ul{
+	font-style:normal;
+}
+
+
+
+
+
